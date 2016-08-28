@@ -18,11 +18,9 @@ JavaScript / AngularJs / Bootstrap / Jasmine / Karma test runner
 
 #Running the unit tests#
 
-These are writting in [Jasmine](http://jasmine.github.io/edge/introduction.html). The test runner is [Karma](http://karma-runner.github.io/0.12/index.html), which is written by the people behind AngularJs. Within the solution, they live in `Scripts\app\unittests`.
+These are writting in [Jasmine](http://jasmine.github.io/edge/introduction.html). The test runner is [Karma](http://karma-runner.github.io/0.12/index.html). Within the solution, they are saved in `Scripts\app\unittests`.
 
-* CI: I assume you use TeamCity: [Karma integration with TeamCity](http://stackoverflow.com/questions/16343543/how-to-integrate-karma-with-teamcity).
-
-* Development experience: There are several Karma test adapters available for Visual Studio.
+* Tio run test TeamCity can be used: [Karma integration with TeamCity](http://stackoverflow.com/questions/16343543/how-to-integrate-karma-with-teamcity).
 
 **Instructions**
 
@@ -40,7 +38,7 @@ npm install
 
 4) Change to the folder with the unit tests:
 ```
-cd Numbers\Scripts\app\unittests
+cd NumberSequence\Scripts\app\unittests
 ```
 
 5)
@@ -62,7 +60,7 @@ java -version
 
 2) Install Protractor and the Webdriver manager:
 ```
-npm install -g protractor
+npm; install -g protractor
 ```
 
 3) Download binaries for the Selenium Server:
