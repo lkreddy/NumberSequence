@@ -1,6 +1,3 @@
-# NumberSequence
-Numeric Sequence Calculator
-
 #Requirement#
 
 "Numeric Sequence Calculator" project is to calculate some numeric sequences based on user input number. 
