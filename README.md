@@ -1,0 +1,2 @@
+# NumberSequence
+Numeric Sequence Calculator
